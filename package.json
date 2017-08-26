@@ -1,0 +1,29 @@
+{
+  "name": "ruuvi-to-keen",
+  "version": "0.1.0",
+  "description": "Node.JS app to relay RuuviTag measurements to Keen.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/okko/ruuvi-to-keen.git"
+  },
+  "keywords": [
+    "physical",
+    "web",
+    "beacons",
+    "keen-io",
+    "ruuvitag"
+  ],
+  "author": "Oskari Okko Ojala",
+  "bugs": {
+    "url": "https://github.com/okko/ruuvi-to-keen/issues"
+  },
+  "homepage": "https://github.com/okko/ruuvi-to-keen",
+  "dependencies": {
+    "keen-js": "^4.0.0",
+    "noble": "^1.8.1"
+  }
+}
