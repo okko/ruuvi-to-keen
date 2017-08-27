@@ -1,5 +1,8 @@
 const Keen = require('keen-js');
 const ruuvi = require('node-ruuvitag');
+const env = require('node-env-file');
+
+env(__dirname + '/.env');
 
 const keenClient = new Keen({
   projectId: process.env.KEEN_PROJECTID,

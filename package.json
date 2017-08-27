@@ -25,6 +25,7 @@
   "dependencies": {
     "keen-js": "^4.0.0",
     "noble": "^1.8.1",
+    "node-env-file": "^0.1.8",
     "node-ruuvitag": "^3.2.0"
   }
 }
