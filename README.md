@@ -11,10 +11,18 @@ Requires a [Keen.io](https://keen.io) account.
 ```sh
 npm install
 ```
+
+Create a file `.env` and write Keen.io authorization information to it:
+
+```
+KEEN_PROJECTID=aaaaaaaaaa
+KEEN_WRITEKEY=aabbccddeeff
+```
+
 ## Start
 
 ```bash
-KEEN_PROJECTID=aaaaaaaaaa KEEN_WRITEKEY=aabbccddeeff screen node index.js
+screen node index.js
 ```
 Press CTRL+A CTRL+D to detach from screen and to leave the application running.
 
