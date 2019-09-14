@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/okko/ruuvi-to-keen",
   "dependencies": {
-    "keen-js": "^4.0.0",
-    "noble": "^1.8.1",
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-1",
+    "@abandonware/noble": "^1.9.2-3",
+    "keen-tracking": "^4.4.1",
     "node-env-file": "^0.1.8",
     "node-ruuvitag": "^3.2.0"
-  }
+  },
+  "license": "BSD-2"
 }
