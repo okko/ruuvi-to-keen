@@ -1,4 +1,4 @@
-const Keen = require('keen-js');
+const Keen = require('keen-tracking');
 const ruuvi = require('node-ruuvitag');
 const env = require('node-env-file');
 
